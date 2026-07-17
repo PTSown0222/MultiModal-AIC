@@ -1,0 +1,13 @@
+.cache/
+data/
+artifacts/
+runs/
+__pycache__/
+*.pyc
+*.pt
+*.safetensors
+.DS_Store
+.env
+.venv
+SUB_DATA_10CLIP_TEST/
+keyframes/
