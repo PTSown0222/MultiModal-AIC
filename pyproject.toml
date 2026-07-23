@@ -5,9 +5,11 @@ description = "Temporun2026"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "easyocr>=1.7.2",
     "numpy>=1.24",
     "open-clip-torch>=2.24",
     "opencv-python-headless>=4.8",
+    "pandas>=3.0.5",
     "pillow>=10.0",
     "torch>=2.1",
     "tqdm>=4.66",

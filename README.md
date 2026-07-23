@@ -69,3 +69,9 @@ Check list models: ls -lh ~/.cache/huggingface/hub/
 Check volume weight: du -sh ~/.cache/huggingface/hub/
 
 delete weight: rm -rf ~/.cache/huggingface/hub/*
+
+####
+```shell
+requirements:
+easyocr>=1.7.1
+```
