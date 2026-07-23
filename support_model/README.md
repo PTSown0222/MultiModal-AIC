@@ -7,3 +7,9 @@ if these objects have texts --> PaddleOCR --> extract text
 
 --> Concatenate in objects: {bounding boxs}, {texts in frames}
 
+## Run extrac ocr
+
+```shell
+bash support_model/run.sh
+```
+
