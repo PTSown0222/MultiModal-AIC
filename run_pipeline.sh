@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # general config
 export ROOT=/path/to/data
 export KF=artifacts/keyframes
