@@ -65,11 +65,11 @@ if __name__ == "__main__":
 
     saved_csv = process_img_ocr(args.input_folder, args.output_folder)
     
-    if saved_csv and os.path.exists(saved_csv):
-        print("\n--- Previewing first 5 rows of the generated CSV ---")
-        with open(saved_csv, 'r', encoding='utf-8') as f:
-            reader = csv.reader(f)
-            for i, row in enumerate(reader):
-                if i >= 6: 
-                    break
-                print(row)
+    # if saved_csv and os.path.exists(saved_csv):
+    #     print("\n--- Previewing first 5 rows of the generated CSV ---")
+    #     with open(saved_csv, 'r', encoding='utf-8') as f:
+    #         reader = csv.reader(f)
+    #         for i, row in enumerate(reader):
+    #             if i >= 6: 
+    #                 break
+    #             print(row)
