@@ -74,6 +74,7 @@ def main():
     vids = list_from_file(args.video_list) if args.video_list else list_videos(args.dataset_root)
     if not vids:
         raise SystemExit("no videos (need --dataset-root or --video-list)")
+    
     mine = [v for i, v in enumerate(vids) if i % args.shard_count == args.shard_index]
     if args.limit:
         mine = mine[:args.limit]
