@@ -11,3 +11,4 @@ __pycache__/
 .venv
 SUB_DATA_10CLIP_TEST/
 keyframes/
+frontend/node_modules/
