@@ -1,0 +1,14 @@
+cat << 'EOF' >> .gitignore
+.env
+models/
+outputs/models/
+outputs/
+samples_data/
+node_modules/
+frontend/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+outputs/
+EOF
