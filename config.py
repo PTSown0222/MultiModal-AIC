@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 CLI:
     uv run python config.py
@@ -98,3 +99,17 @@ if __name__ == "__main__":
         cfg.get_model("Qwen-model")
     except ValueError as e:
         print(f"[Error]: {e}")
+=======
+from dataclasses import dataclass
+from pathlib import Path
+
+@dataclass
+class ConfigModel:
+    siglip_model: str = "google/siglip2-base-patch16-224"
+    clip_model: str = "ViT-B-32"
+
+    # configuration root for all projects
+    root = Path(__file__).resolve().parent
+
+    
+>>>>>>> 33d301d7a62ae8dd1d1ba845d3dc22970fc36dac

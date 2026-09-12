@@ -3,9 +3,15 @@
 ## Decompose The Bricks into Pieces
 
 ### Stage 1: Adjust Frame Extraction Methods
+<<<<<<< HEAD
 1. [x] extract keyframe from i-frame through FFMPG
 2. [ ] Anotation and Captioning: Use a LLMs to caption a frame into metadata 
 3. [x] Anotation with easyOCR and Object Detection (Yolo11n.pt)
+=======
+1. [ ] Shot Detection and Adaptive Sampling --> Select important frames (static only get 1 frame to motion frame (catch it))
+2. [ ] Anotation and Captioning: Use a LLMs to caption a frame into metadata 
+3. [ ] Anotation with Paddle OCR and Object Detection (Yolo10)
+>>>>>>> 33d301d7a62ae8dd1d1ba845d3dc22970fc36dac
 
 ```python
 {
@@ -20,6 +26,7 @@
 ```
 
 ### Stage 2: Select Embedding Models
+<<<<<<< HEAD
 1. [x] Baseline: CLIP Model -> Vision Encoder + Text Encoder
 2. [ ] Model: Mobile_CLIP + SigLIP2
 3. [ ] RRF: Fusion Model
@@ -28,6 +35,14 @@
 ### Stage 3: Retrieve and Score
 1. [x] Vector Database Retrieve
 2. [x] Reranker
+=======
+1. [ ] Baseline: CLIP Model -> Vision Encoder + Text Encoder
+
+## System Design
+
+Inputs --> SBD + Adaptive Sampling
+Advanced 
+>>>>>>> 33d301d7a62ae8dd1d1ba845d3dc22970fc36dac
 
 ## How to Run
 

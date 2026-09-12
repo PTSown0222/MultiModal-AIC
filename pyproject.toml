@@ -5,19 +5,28 @@ description = "Temporun2026"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+<<<<<<< HEAD
     "deep-translator>=1.11.4",
     "easyocr>=1.7.2",
     "faiss-cpu>=1.15.0",
     "flagembedding>=1.4.2",
+=======
+    "easyocr>=1.7.2",
+>>>>>>> 33d301d7a62ae8dd1d1ba845d3dc22970fc36dac
     "numpy>=1.24",
     "open-clip-torch>=2.24",
     "opencv-python-headless>=4.8",
     "pandas>=3.0.5",
     "pillow>=10.0",
+<<<<<<< HEAD
     "rapidfuzz>=3.14.6",
     "streamlit>=1.59.2",
     "torch>=2.1",
     "tqdm>=4.66",
     "ultralytics>=8.4.145",
     "websockets>=17.1",
+=======
+    "torch>=2.1",
+    "tqdm>=4.66",
+>>>>>>> 33d301d7a62ae8dd1d1ba845d3dc22970fc36dac
 ]
