@@ -65,7 +65,10 @@ def decompose_query(query_text):
         print("Errors:", e)
         
     finally:
+<<<<<<< HEAD
+=======
         # clean for VRAM
+>>>>>>> 33d301d7a62ae8dd1d1ba845d3dc22970fc36dac
         del model_inputs
         del generated_ids
         gc.collect()
@@ -78,6 +81,9 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--tasks_root", required=True, help="a direction of tals")
     ap.add_argument("--output_query", required=True, help="save output of user's query")
+<<<<<<< HEAD
+=======
 
+>>>>>>> 33d301d7a62ae8dd1d1ba845d3dc22970fc36dac
     ap.parse_args()
     decompose_query()
