@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-cat << 'EOF' >> .gitignore
+
 .env
 models/
 outputs/models/
@@ -12,20 +11,5 @@ __pycache__/
 *.pyc
 .DS_Store
 outputs/
-EOF
-=======
-.cache/
-data/
-artifacts/
-runs/
-__pycache__/
-*.pyc
-*.pt
-*.safetensors
-.DS_Store
-.env
-.venv
-SUB_DATA_10CLIP_TEST/
-keyframes/
-frontend/node_modules/
->>>>>>> 33d301d7a62ae8dd1d1ba845d3dc22970fc36dac
+
+

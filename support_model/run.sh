@@ -7,10 +7,6 @@ OUTPUT_DIR="./output/ocr/"
 # scene
 INPUT_SCENCE_DIR=""
 OUTPUT_ASR=""
-<<<<<<< HEAD
-
-=======
->>>>>>> 33d301d7a62ae8dd1d1ba845d3dc22970fc36dac
 # query
 INPUT_QUERY="$HOME/Documents/MultiModal-RAG-AIC/public_round_tasks.jsonl"
 OUTPUT_QUERY_DIR="./output/text_metadata"
